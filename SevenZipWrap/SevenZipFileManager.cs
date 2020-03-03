@@ -194,7 +194,7 @@ namespace SevenZipWrap
         /// <remarks>
         /// If the value is set, there is a limited test of validity. The file at path has to exist.
         /// If the value is not set, it is looked up in the registry. If SevenZip is not installed, there should be no registry entry.
-        /// <seealso cref="getSevenZipApplicationPath0"/>
+        /// <seealso cref="getSevenZipApplicationPath"/>
         /// </remarks>
         public string SevenZipApplicationPath
         {
